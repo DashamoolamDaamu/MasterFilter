@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """ Hᴇʟʟᴏ {}.
-𝖨𝗆 𝖺𝗇 𝖺𝗎𝗍𝗈 𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍 𝗐𝗁𝗂𝖼𝗁 𝖼𝖺𝗇 𝗉𝗋𝗈𝗏𝗂𝖽𝖾 𝗆𝗈𝗏𝗂𝖾𝗌 𝗂𝗇 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉𝗌.
+𝖨𝗆 𝖺𝗇 𝖺𝗎𝗍𝗈 𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍 𝗐𝗁𝗂𝖼𝗁 𝖼𝖺𝗇 𝗉𝗋𝗈𝗏𝗂𝖽𝖾 𝗆𝗈𝗏𝗂𝖾𝗌 𝗂𝗇 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉𝗌 𝗮𝗻𝗱 𝗽𝗺 𝗳𝗶𝗹𝘁𝗲𝗿𝘀 𝗶𝗻 𝗽𝗿𝗶𝘃𝗮𝘁𝗲 𝗰𝗵𝗮𝘁.
 + 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 + 𝖺𝗇𝖽 𝗉𝗋𝗈𝗆𝗈𝗍𝖾 𝗆𝖾 𝖺𝗌 𝖺𝖽𝗆𝗂𝗇 𝗍𝗈 𝗅𝖾𝗍 𝗆𝖾 𝗀𝖾𝗍 𝗂𝗇 𝖺𝖼𝗍𝗂𝗈𝗇."""
     HELP_TXT = """
 <b>Hey {} 👋</b>
@@ -129,7 +129,7 @@ Each help page contains a short list for easy reading.
 3. Usᴇ /settings ᴏɴ ʙᴏᴛ's PM ᴀɴᴅ ᴛᴜʀɴ ᴏɴ AᴜᴛᴏFɪʟᴛᴇʀ ᴏɴ ᴛʜᴇ sᴇᴛᴛɪɴɢs ᴍᴇɴᴜ.."""
     CONNECTION_TXT = """Help: <b>Connections</b>
 
-- Used to connect bot to PM for managing filters 
+- Used to connect bot to PM for managing filters and keeping PM filter replies active.
 - it helps to avoid spamming in groups.
 
 <b>NOTE:</b>
@@ -187,23 +187,8 @@ Added By - {}
     RESULT_TXT="""Hey {mention} ,     
 Jᴜsᴛ Sᴇᴇ Wʜᴀᴛ I Found Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ"""
 
-    CUSTOM_FILE_CAPTION = """📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-FɪʟᴇSɪᴢᴇ : {file_size}
-
-╔═  ᴊᴏɪɴ ᴡɪᴛʜ ᴜs   ═╗
- Jᴏɪɴ :- [MAIN CHANNEL](https://t.me/mn_movies2)
- Jᴏɪɴ :- [Movie Group 1](https://t.me/mn_movies3)
- Jᴏɪɴ :- [Movie Group 2](https://t.me/malayalam_movies_group2)
- Jᴏɪɴ :- [Movie Group 3](https://t.me/Netflix_Group3)
- Jᴏɪɴ :- [Movie Group 4](https://t.me/cinima_theerthadana_kendram)
- Jᴏɪɴ :- [Movie Group 5](https://t.me/malayalam_movies_nbot)
- Jᴏɪɴ :- [Movie Group 6](https://t.me/seriesgroups)
- Jᴏɪɴ :- [Movie Group 7](https://t.me/New_indian_cinemas)
-╚═  ᴊᴏɪɴ ᴡɪᴛʜ ᴜs    ═╝
-
-⚠️ <b>This file will be deleted from here within 1 minute as it has copyright ... !!!</b>
-
-<b>കോപ്പിറൈറ്റ് ഉള്ളതുകൊണ്ട് ഫയൽ 1 മിനിറ്റിനുള്ളിൽ ഇവിടെനിന്നും ഡിലീറ്റ് ആകുന്നതാണ് അതുകൊണ്ട് ഇവിടെ നിന്നും മറ്റെവിടെക്കെങ്കിലും മാറ്റിയതിന് ശേഷം ഡൗൺലോഡ് ചെയ്യുക!</b>
+    CUSTOM_FILE_CAPTION = """📂 File Name: {file_name}
+📦 File Size: {file_size}
 """
 
     
